@@ -1,0 +1,84 @@
+body {
+    margin:10px;
+    font-size: large;
+    color: #333333;
+    background-color: #cacaca;
+    font-family: monospace;
+}
+
+.rules {
+    background-color: #333333;
+    color: #cacaca;
+    text-align: center;
+    border: outset 6px;
+    width: 700px;
+    height: 750px;
+    margin: 5px;
+    position: relative;
+    left: 800px;
+    bottom: 110px;
+}
+
+.form {
+    padding: 5px;
+    background-color: #333333;
+    color: #cacaca;
+    font-size: x-large;
+    display: table;
+    border: outset  5px;
+    position: relative;
+    bottom: 750px;
+    left: 50px;
+}
+
+input {
+    padding: 3px;
+}
+select {
+    padding: 3px;
+}
+
+#blue{
+    background-color: dodgerblue;
+}
+#green{
+    background-color: forestgreen;
+}
+#pink{
+    background-color: palevioletred;
+}
+#yellow{
+    background-color: gold;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+  }
+
+  .checkmark:hover{
+      border: white 1px solid;
+  }
+  
+  .container input:checked ~ .checkmark {
+    border: black 1px solid;
+  }
+ 
+  
